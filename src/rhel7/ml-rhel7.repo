@@ -1,0 +1,6 @@
+[nvidia-ml-rhel7-x86_64]
+name=nvidoa-ml-rhel7-x86_64
+baseurl=https://developer.download.nvidia.com/compute/machine-learning/repos/rhel7/x86_64
+enabled=0
+gpgcheck=1
+gpgkey=https://developer.download.nvidia.com/compute/machine-learning/repos/rhel7/x86_64/7fa2af80.pub
