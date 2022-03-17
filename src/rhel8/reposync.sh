@@ -17,7 +17,7 @@ done
 for repo in ${REPO_LIST}
 do
   COUNT=0
-  TOTAL=$(ls -1 ${REPO_DST}/${repo}/Packages/*/*| wc -l)
+  TOTAL=$(find ${REPO_DST}/${repo}/Packages -type f | wc -l)
   UPLOADED=0
   SKIPPED=0
   repo_file=$(grep -l ${repo} /etc/yum.repos.d/*.repo)
